@@ -1,0 +1,17 @@
+.todo-form {
+  /* Component styles go here */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  &__label {
+    flex: 0 0 100%;
+  }
+
+  &__field {
+    flex: 1;
+  }
+
+  &__submit {
+  }
+}

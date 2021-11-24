@@ -1,0 +1,43 @@
+.app-list {
+  // padding: 1rem;
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #8c86ff;
+    border-radius: 0.25rem;
+    box-shadow: 1px 2px 4px 1px #00000061;
+    margin-bottom: 0.5rem;
+    transition: 0.3s;
+
+    &--checked {
+      background-color: #cbc8ff;
+    }
+  }
+
+  &__label {
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    transition: 0.3s;
+
+    &--checked {
+      color: var(--sl-input-color);
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}
